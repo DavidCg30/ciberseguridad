@@ -1,0 +1,54 @@
+body {
+    background-image: url(img/pikaso_texttoimage_ciberseguridad.jpeg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff; 
+  }
+  .container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .caracteristicas_columna {
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+  .caracteristicas_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.barra {
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    overflow: hidden;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    float: right;
+}
+
+.barra ul li {
+    float: left;
+    margin: 0; 
+    padding: 0; 
+    margin-left: 30px; 
+}
+
+.barra ul li a {
+    display: block;
+    padding: 30px 30px; 
+    text-decoration: none;
+    color: white;
+}
+
+.barra ul li a:hover {
+    background-color: #00AEEF;
+}
